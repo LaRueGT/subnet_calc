@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subnet Calculator</title>
+</head>
+<body>
+<p>Subnets split a network into smaller network segments.</p>
+
+<input type="radio" id="classChoiceA" name="ip-class" value="A">
+<label for="classChoiceA">Class A</label>
+<input type="radio" id="classChoiceB" ip-class" value="B">
+<label for="classChoiceB">Class B</label>
+<input type="radio" id="classChoiceC" name="ip-class" value="C">
+<label for="classChoiceC">Class C</label>
+<br>
+<input id="bits-slider" type="range" min="8" max="30" step="1">
+<div id="range-indicator">Output goes here.</div>
+<script src="scripts/subnet_calc.js"></script>
+</body>
+</html>
